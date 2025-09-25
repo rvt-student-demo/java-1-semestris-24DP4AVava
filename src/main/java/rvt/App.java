@@ -1,8 +1,20 @@
 package rvt;
 
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) {
-        // Your code goes here...
-        System.out.println(123);
+      Scanner scanner = new Scanner(System.in);
+
+      int age = Integer.valueOf(scanner.nextLine());
+      String name = scanner.nextLine();
+
+      if (age >= 18) {
+        System.out.println("Tu esi pilngadigs");
+      } else {
+        System.out.println("Nav piekluves");
+      }
+
     }
 }
+
