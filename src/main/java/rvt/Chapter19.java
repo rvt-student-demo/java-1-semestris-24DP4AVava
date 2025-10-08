@@ -43,7 +43,6 @@ public static void ex2(){
         int sum = 0;
         int i = 1;
 
-        // считаем сумму через цикл while
         while (i <= n) {
             sum = sum + i;
             i = i + 1;
