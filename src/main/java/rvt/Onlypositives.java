@@ -9,6 +9,7 @@ public class Onlypositives {
 
     while (true) {
         System.out.println("Ievadi skaitli: ");
+        System.out.println("Input a number");
         int number = Integer.valueOf(scanner.nextLine());
 
         if (number == 0) {
@@ -17,6 +18,7 @@ public class Onlypositives {
 
         if (number < 0) {
             System.out.println("Nederigs skaitlis");
+            System.out.println("Unfit number");
             continue;
         }
 
