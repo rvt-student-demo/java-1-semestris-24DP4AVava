@@ -34,7 +34,7 @@ public class Chapter60 {
     int[] valB   = {-12,  24, -79, -13};
     int[] sum    = {  0,   0,   0,   0};
 
-    for (int i = 0; i < valA.leght; )
+    for (int i = 0; i < valA.lenght; )
     System.out.println( "sum: " 
         + sum[0] + " " + sum[1] + " " + sum[2] + " " + sum[3] );
     
